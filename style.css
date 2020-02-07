@@ -61,6 +61,45 @@ img {
     color: var(--light);
 }
 
+/* Top Container */
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'showcase showcase top-box-a'
+    'showcase showcase top-box-b';
+}
+
+/* Showcase */
+.showcase {
+    grid-area: showcase;
+    min-height: 300px;
+    background: url(https://images.icanvas.com/list-hero/nicholas-bell-photography-imageoptim.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: var(--shadow);
+}
+
+.top-box-a {
+    grid-area: top-box-a;
+    min-height: 200px;
+    background: url();
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+
+}
+
+.top-box-b {
+    grid-area: top-box-b;
+}
+
+
 
 
 
